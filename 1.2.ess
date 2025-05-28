@@ -1,0 +1,11 @@
+start 
+new cena number
+set cena 2000
+new deneg number
+set deneg 3000
+if (deneg>cena)
+ log string "Хватает"
+else
+ log string "Не хватате денег" 
+close
+finish
